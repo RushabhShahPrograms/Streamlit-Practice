@@ -1,5 +1,11 @@
 import streamlit as st
 
+st.set_page_config(
+    page_title="Buttons",
+    page_icon="🔘",
+)
+
+
 #checkbox
 def change():
     st.write("Changed")

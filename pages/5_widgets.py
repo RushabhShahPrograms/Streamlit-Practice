@@ -3,6 +3,12 @@ import time as ts
 from datetime import time
 
 
+st.set_page_config(
+    page_title="Widgets",
+    page_icon="☸️",
+)
+
+
 st.slider("This is a slider",max_value=1000,min_value=150,value=180)
 
 def converter(value):
